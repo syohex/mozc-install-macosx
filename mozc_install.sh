@@ -1,4 +1,4 @@
-#!/bin/s
+#!/bin/sh
 set -e
 
 mozc_build() {
