@@ -3,7 +3,7 @@
 ## Requirements
 
 - python 2(MacOSX installs it by default)
-- ninja(Homebrew: `brew install nonja`)
+- ninja(Homebrew: `brew install ninja`)
 
 ## How to install
 
