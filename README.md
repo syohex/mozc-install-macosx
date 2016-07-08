@@ -1,4 +1,9 @@
-# mozc emacs helper install script for MacOSX Yosemite
+# mozc emacs helper install script for MacOSX El Capitan
+
+## Requirements
+
+- python 2(MacOSX installs it by default)
+- ninja(Homebrew: `brew install nonja`)
 
 ## How to install
 
