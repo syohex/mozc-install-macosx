@@ -31,8 +31,8 @@ mozc_install() {
     set -x
     sudo cp out_mac/Release/mozc_emacs_helper /usr/local/bin
     sudo cp -r out_mac/Release/Mozc.app '/Library/Input Methods/'
-    sudo cp -r out_mac/DerivedSources/Release/mac/org.mozc.inputmethod.Japanese.Converter.plist /Library/LaunchAgents
-    sudo cp out_mac/DerivedSources/Release/mac/org.mozc.inputmethod.Japanese.Renderer.plist /Library/LaunchAgents
+    sudo cp -r out_mac/Release/gen/mac/org.mozc.inputmethod.Japanese.Converter.plist /Library/LaunchAgents
+    sudo cp out_mac/Release/gen/mac/org.mozc.inputmethod.Japanese.Renderer.plist /Library/LaunchAgents
     set +x
 }
 
